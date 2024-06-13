@@ -14,10 +14,14 @@ img {
 
 div {
     text-align: center;
+
 }
 
 .product {
     background-origin: padding-box;
+    width: 370px;
+    height: 700px;
+    overflow: hidden;
     display: inline-block;
     text-align: center;
 }
