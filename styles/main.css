@@ -1,0 +1,23 @@
+* {
+    background-color: #a6b6a9
+}
+
+li {
+    list-style-type: none;
+}
+
+img {
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+div {
+    text-align: center;
+}
+
+.product {
+    background-origin: padding-box;
+    display: inline-block;
+    text-align: center;
+}
