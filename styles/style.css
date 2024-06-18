@@ -4,14 +4,14 @@
     background-color: #fbe8ce
 }
 
-.h1_base {
+.title {
     color: #222222;
     font-size: 28px;
     line-height: 36px;
     font-weight: bold;
 }
 
-.h2_base {
+.subtitle {
     color: coral;
     font-style: normal;
     font-weight: 700;
@@ -19,7 +19,7 @@
     line-height: 80px;
 }
 
-.paragraph {
+.text {
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
