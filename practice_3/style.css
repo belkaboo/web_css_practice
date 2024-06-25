@@ -23,12 +23,6 @@
     height: 25px;
 }
 
-.feature_title2,
-.feature_text2,
-.feature_button2 {
-    margin-left: 29px;
-}
-
 .feature_title1,
 .feature_title2,
 .feature_title3 {
@@ -42,6 +36,7 @@
 .feature_text1,
 .feature_text2,
 .feature_text3 {
+    margin-top: 17px;
     font-family: Gilroy-Regular;
     font-size: 15px;
     line-height: 22.5px;
@@ -50,7 +45,9 @@
 
 }
 
-.feature1 {
+.feature1,
+.feature2,
+.feature3 {
     margin-top: 140px;
     width: 310px;
     height: 226px;
@@ -58,20 +55,40 @@
     opacity: 0px;
 }
 
-.feature2 {
+
+/* TOP HOVERS*/
+
+.feature1:hover,
+.feature2:hover,
+.feature3:hover {
     margin-top: 100px;
     width: 370px;
     height: 291px;
     gap: 0px;
     opacity: 0px;
     box-shadow: 15px 25px 56px 6px #0000000F;
-}
+    transition: 0.5s;
 
-.feature3 {
-    margin-top: 140px;
-    width: 310px;
-    height: 226px;
-    border-radius: 15px 0px 0px 0px;
+    .feature_icon1,
+    .feature_icon2,
+    .feature_icon3 {
+        margin-left: 30px;
+        margin-top: 40px;
+        transition: 0.5s;
+    }
+
+    .feature_title1,
+    .feature_text1,
+    .feature_button1,
+    .feature_title2,
+    .feature_text2,
+    .feature_button2,
+    .feature_title3,
+    .feature_text3,
+    .feature_button3 {
+        margin-left: 30px;
+        transition: 0.5s;
+    }
 
 }
 
@@ -86,14 +103,14 @@
 }
 
 .feature_icon2 {
-    margin-top: 40px;
-    margin-left: 30px;
     width: 70px;
     height: 70px;
     gap: 0px;
     border-radius: 15px;
     opacity: 0px;
     background: #14921147;
+
+
 }
 
 
@@ -162,27 +179,24 @@ a {
     max-width: 1920px;
 }
 
-.service1 {
-    width: 370px;
-    height: 549px;
-    background-color: #FFFFFF;
-    border: 1.5px solid #FFFFFF
-}
 
-.service2 {
-    width: 370px;
-    height: 549px;
-    gap: 0px;
-    opacity: 0px;
-    box-shadow: 15px 25px 60px -5px #0000001A;
 
-}
-
+.service1,
+.service2,
 .service3 {
     width: 370px;
     height: 549px;
     background-color: #FFFFFF;
     border: 1.5px solid #FFFFFF
+}
+
+/* SERVICE HOVER*/
+
+.service1:hover,
+.service2:hover,
+.service3:hover {
+    box-shadow: 15px 25px 60px -5px #0000001A;
+    transition: 0.5s;
 }
 
 .service_illustration {
@@ -223,12 +237,14 @@ button {
     border-radius: 50px;
     border: 0px;
     background: #F25822;
-    box-shadow: 4px 4px 8px 0px #F2582233;
     color: #FFFFFF;
     font-family: Gilroy-Bold;
     font-size: 13px;
     line-height: 19.5px;
     text-align: center;
+}
 
-
+button:hover {
+    box-shadow: 4px 4px 8px 0px #F2582233;
+    transition: 0.3s;
 }
