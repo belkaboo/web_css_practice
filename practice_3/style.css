@@ -10,7 +10,7 @@
 /* TOP*/
 .top {
     display: flex;
-    max-width: 1915px;
+    max-width: 1920px;
     height: 491px;
     justify-content: center;
     background: #FFFFFF;
@@ -141,8 +141,10 @@ a {
 /* BOTTOM*/
 
 .bottom {
+    height: 919px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     background: #FAFAFA;
     max-width: 1920px;
 }
@@ -174,12 +176,16 @@ a {
 }
 
 .services {
-    margin: 55px 375px 100px 375px;
+    margin-top: 55px;
+    margin-bottom: 100px;
     display: flex;
-    justify-content: space-between;
-    gap: 30px;
     max-width: 1920px;
+    justify-content: center;
+    height: 919px;
+    gap: 30px;
+
 }
+
 
 
 
