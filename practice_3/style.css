@@ -1,7 +1,9 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+
 * {
     margin: 0;
     padding: 0;
-
 }
 
 
@@ -16,13 +18,48 @@
     gap: 60px;
 }
 
+.icon_svg {
+    padding: 23px;
+    width: 25px;
+    height: 25px;
+}
+
+.feature_title2,
+.feature_text2,
+.feature_button2 {
+    margin-left: 29px;
+}
+
+.feature_title1,
+.feature_title2,
+.feature_title3 {
+    margin-top: 25px;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    line-height: 28.13px;
+    text-align: left;
+}
+
+.feature_text1,
+.feature_text2,
+.feature_text3 {
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    line-height: 22.5px;
+    text-align: left;
+    color: #666666;
+
+}
+
+
+
+
 .feature1 {
-    margin-top: 100px;
+    margin-top: 140px;
     width: 310px;
     height: 226px;
     border-radius: 15px 0px 0px 0px;
     opacity: 0px;
-
 }
 
 .feature2 {
@@ -31,13 +68,11 @@
     height: 291px;
     gap: 0px;
     opacity: 0px;
-
-    box-shadow: 5px 20px 20px 20px #FAFAFA;
-
+    box-shadow: 15px 25px 56px 6px #0000000F;
 }
 
 .feature3 {
-    margin-top: 100px;
+    margin-top: 140px;
     width: 310px;
     height: 226px;
     border-radius: 15px 0px 0px 0px;
@@ -45,14 +80,93 @@
 }
 
 
+.feature_icon1 {
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    background: #F2582240;
+    ;
 
+}
+
+.feature_icon2 {
+    margin-top: 40px;
+    margin-left: 30px;
+    width: 70px;
+    height: 70px;
+    gap: 0px;
+    border-radius: 15px;
+    opacity: 0px;
+    background: #14921147;
+}
+
+
+.feature_icon3 {
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    background: #FFCD1D3D;
+
+}
+
+.feature_button1,
+.feature_button2,
+.feature_button3,
+a {
+    margin-top: 25px;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    line-height: 16.5px;
+    text-align: left;
+    color: #000000;
+}
 
 /* BOTTOM*/
 
-.bottom {}
+.bottom {
+    background: #FAFAFA;
+    max-width: 1920px;
+
+
+
+
+}
+
+.services {
+    padding: 55px 375px 100px 375px;
+    display: flex;
+    gap: 30px;
+}
 
 .section_title {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.service1 {
+    width: 370px;
+    height: 549px;
+    background-color: #FFFFFF;
+    border: 1.5px solid #FFFFFF
+}
+
+.service2 {
+    width: 370px;
+    height: 549px;
+
+    gap: 0px;
+    opacity: 0px;
+
+    box-shadow: 15px 25px 60px -5px #0000001A;
+
+}
+
+.service3 {
+    width: 370px;
+    height: 549px;
+    background-color: #FFFFFF;
+    border: 1.5px solid #FFFFFF
 }
