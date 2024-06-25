@@ -26,6 +26,7 @@
 .feature_title1,
 .feature_title2,
 .feature_title3 {
+    width: 215px;
     margin-top: 25px;
     font-family: Gilroy-Bold;
     font-size: 24px;
@@ -37,6 +38,7 @@
 .feature_text2,
 .feature_text3 {
     margin-top: 17px;
+    max-width: 310px;
     font-family: Gilroy-Regular;
     font-size: 15px;
     line-height: 22.5px;
@@ -242,6 +244,7 @@ button {
     font-size: 13px;
     line-height: 19.5px;
     text-align: center;
+    cursor: pointer;
 }
 
 button:hover {
