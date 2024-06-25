@@ -225,6 +225,10 @@ button {
     background: #F25822;
     box-shadow: 4px 4px 8px 0px #F2582233;
     color: #FFFFFF;
+    font-family: Gilroy-Bold;
+    font-size: 13px;
+    line-height: 19.5px;
+    text-align: center;
 
 
 }
